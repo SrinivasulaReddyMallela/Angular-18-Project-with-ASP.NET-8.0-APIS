@@ -1,0 +1,22 @@
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Models\bin\Release\net8.0\WebGYM.Models.deps.json
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Models\bin\Release\net8.0\WebGYM.Models.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Models\bin\Release\net8.0\WebGYM.Models.pdb
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Models\obj\Release\net8.0\WebGYM.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Models\obj\Release\net8.0\WebGYM.Models.AssemblyInfoInputs.cache
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Models\obj\Release\net8.0\WebGYM.Models.AssemblyInfo.cs
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Models\obj\Release\net8.0\WebGYM.Models.csproj.CoreCompileInputs.cache
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Models\obj\Release\net8.0\WebGYM.Models.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Models\obj\Release\net8.0\refint\WebGYM.Models.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Models\obj\Release\net8.0\WebGYM.Models.pdb
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Models\obj\Release\net8.0\ref\WebGYM.Models.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Models\bin\Release\net8.0\WebGYM.Models.deps.json
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Models\bin\Release\net8.0\WebGYM.Models.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Models\bin\Release\net8.0\WebGYM.Models.pdb
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Models\obj\Release\net8.0\WebGYM.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Models\obj\Release\net8.0\WebGYM.Models.AssemblyInfoInputs.cache
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Models\obj\Release\net8.0\WebGYM.Models.AssemblyInfo.cs
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Models\obj\Release\net8.0\WebGYM.Models.csproj.CoreCompileInputs.cache
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Models\obj\Release\net8.0\WebGYM.Models.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Models\obj\Release\net8.0\refint\WebGYM.Models.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Models\obj\Release\net8.0\WebGYM.Models.pdb
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Models\obj\Release\net8.0\ref\WebGYM.Models.dll

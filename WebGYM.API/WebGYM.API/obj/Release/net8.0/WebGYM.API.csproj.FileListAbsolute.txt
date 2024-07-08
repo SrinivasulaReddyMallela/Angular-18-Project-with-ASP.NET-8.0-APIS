@@ -1,0 +1,204 @@
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Nlog.config
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\appsettings.Development.json
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\appsettings.json
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.API.exe
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.API.deps.json
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.API.runtimeconfig.json
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.API.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.API.pdb
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\AutoMapper.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Azure.Core.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Azure.Identity.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Dapper.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.Data.SqlClient.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.Extensions.Options.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.Identity.Client.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.OpenApi.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.SqlServer.Server.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Newtonsoft.Json.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\NLog.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\NLog.Extensions.Logging.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\NLog.Web.AspNetCore.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\System.Data.SqlClient.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\System.Drawing.Common.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\System.Linq.Dynamic.Core.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\System.Memory.Data.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\System.Runtime.Caching.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\System.Security.Permissions.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\System.Windows.Extensions.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win-arm64\native\sni.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win-x64\native\sni.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win-x86\native\sni.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.Concrete.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.Interface.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.Models.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.ViewModels.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.Concrete.pdb
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.Interface.pdb
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.Models.pdb
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.ViewModels.pdb
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.csproj.AssemblyReference.cache
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.AssemblyInfoInputs.cache
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.AssemblyInfo.cs
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.csproj.CoreCompileInputs.cache
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.MvcApplicationPartsAssemblyInfo.cs
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.MvcApplicationPartsAssemblyInfo.cache
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\staticwebassets.build.json
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\staticwebassets.development.json
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\staticwebassets\msbuild.WebGYM.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\staticwebassets\msbuild.build.WebGYM.API.props
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebGYM.API.props
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\staticwebassets\msbuild.buildTransitive.WebGYM.API.props
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\staticwebassets.pack.json
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\scopedcss\bundle\WebGYM.API.styles.css
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.csproj.Up2Date
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\refint\WebGYM.API.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.pdb
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.genruntimeconfig.cache
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\ref\WebGYM.API.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Nlog.config
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\appsettings.Development.json
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\appsettings.json
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.API.exe
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.API.deps.json
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.API.runtimeconfig.json
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.API.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.API.pdb
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\AutoMapper.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Azure.Core.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Azure.Identity.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Dapper.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.Data.SqlClient.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.Extensions.Options.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.Identity.Client.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.OpenApi.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.SqlServer.Server.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Newtonsoft.Json.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\NLog.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\NLog.Extensions.Logging.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\NLog.Web.AspNetCore.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\System.Configuration.ConfigurationManager.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\System.Data.SqlClient.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\System.Drawing.Common.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\System.Linq.Dynamic.Core.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\System.Memory.Data.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\System.Runtime.Caching.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\System.Security.Permissions.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\System.Windows.Extensions.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win-arm64\native\sni.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win-x64\native\sni.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win-x86\native\sni.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.Concrete.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.Interface.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.Models.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.ViewModels.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.Concrete.pdb
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.Interface.pdb
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.Models.pdb
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\WebGYM.ViewModels.pdb
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.csproj.AssemblyReference.cache
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.AssemblyInfoInputs.cache
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.AssemblyInfo.cs
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.csproj.CoreCompileInputs.cache
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.MvcApplicationPartsAssemblyInfo.cs
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.MvcApplicationPartsAssemblyInfo.cache
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\staticwebassets.build.json
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\staticwebassets.development.json
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\staticwebassets\msbuild.WebGYM.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\staticwebassets\msbuild.build.WebGYM.API.props
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebGYM.API.props
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\staticwebassets\msbuild.buildTransitive.WebGYM.API.props
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\staticwebassets.pack.json
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\scopedcss\bundle\WebGYM.API.styles.css
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.csproj.Up2Date
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\refint\WebGYM.API.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.pdb
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\WebGYM.API.genruntimeconfig.cache
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\obj\Release\net8.0\ref\WebGYM.API.dll

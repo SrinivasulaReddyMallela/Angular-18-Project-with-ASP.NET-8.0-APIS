@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My Projects\\WebGYM\\WebGYM.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{28B7F55F-0CA3-4837-8F52-EB07B9CA8AF8}|WebGYM.API\\WebGYM.API.csproj|d:\\my projects\\webgym\\webgym.api\\webgym.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28B7F55F-0CA3-4837-8F52-EB07B9CA8AF8}|WebGYM.API\\WebGYM.API.csproj|solutionrelative:webgym.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B7F55F-0CA3-4837-8F52-EB07B9CA8AF8}|WebGYM.API\\WebGYM.API.csproj|d:\\my projects\\webgym\\webgym.api\\webgym.api\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{28B7F55F-0CA3-4837-8F52-EB07B9CA8AF8}|WebGYM.API\\WebGYM.API.csproj|solutionrelative:webgym.api\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28B7F55F-0CA3-4837-8F52-EB07B9CA8AF8}|WebGYM.API\\WebGYM.API.csproj|d:\\my projects\\webgym\\webgym.api\\webgym.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{28B7F55F-0CA3-4837-8F52-EB07B9CA8AF8}|WebGYM.API\\WebGYM.API.csproj|solutionrelative:webgym.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C4E192B-4BF6-4303-9899-6F362A27447C}|WebGYM.Concrete\\WebGYM.Concrete.csproj|d:\\my projects\\webgym\\webgym.api\\webgym.concrete\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C4E192B-4BF6-4303-9899-6F362A27447C}|WebGYM.Concrete\\WebGYM.Concrete.csproj|solutionrelative:webgym.concrete\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Nlog.config",
+              "DocumentMoniker": "D:\\My Projects\\WebGYM\\WebGYM.API\\WebGYM.API\\Nlog.config",
+              "RelativeDocumentMoniker": "WebGYM.API\\Nlog.config",
+              "ToolTip": "D:\\My Projects\\WebGYM\\WebGYM.API\\WebGYM.API\\Nlog.config",
+              "RelativeToolTip": "WebGYM.API\\Nlog.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-08T10:34:28.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "D:\\My Projects\\WebGYM\\WebGYM.API\\WebGYM.Concrete\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "WebGYM.Concrete\\DatabaseContext.cs",
+              "ToolTip": "D:\\My Projects\\WebGYM\\WebGYM.API\\WebGYM.Concrete\\DatabaseContext.cs",
+              "RelativeToolTip": "WebGYM.Concrete\\DatabaseContext.cs",
+              "ViewState": "AQIAAK0AAAAAAAAAAAAuwLsAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T10:31:13.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\My Projects\\WebGYM\\WebGYM.API\\WebGYM.API\\appsettings.json",
+              "RelativeDocumentMoniker": "WebGYM.API\\appsettings.json",
+              "ToolTip": "D:\\My Projects\\WebGYM\\WebGYM.API\\WebGYM.API\\appsettings.json",
+              "RelativeToolTip": "WebGYM.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-08T10:30:59.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\My Projects\\WebGYM\\WebGYM.API\\WebGYM.API\\Program.cs",
+              "RelativeDocumentMoniker": "WebGYM.API\\Program.cs",
+              "ToolTip": "D:\\My Projects\\WebGYM\\WebGYM.API\\WebGYM.API\\Program.cs",
+              "RelativeToolTip": "WebGYM.API\\Program.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAADUAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T10:17:03.017Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

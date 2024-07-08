@@ -1,0 +1,6 @@
+@WebGYM.API_HostAddress = http://localhost:5287
+
+GET {{WebGYM.API_HostAddress}}/swagger/
+Accept: application/json
+
+###

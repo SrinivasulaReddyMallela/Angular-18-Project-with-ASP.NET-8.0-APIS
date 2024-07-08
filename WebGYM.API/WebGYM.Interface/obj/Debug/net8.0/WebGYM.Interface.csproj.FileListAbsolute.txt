@@ -1,0 +1,34 @@
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Interface\bin\Debug\net8.0\WebGYM.Interface.deps.json
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Interface\bin\Debug\net8.0\WebGYM.Interface.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Interface\bin\Debug\net8.0\WebGYM.Interface.pdb
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Interface\bin\Debug\net8.0\WebGYM.Models.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Interface\bin\Debug\net8.0\WebGYM.ViewModels.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Interface\bin\Debug\net8.0\WebGYM.Models.pdb
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Interface\bin\Debug\net8.0\WebGYM.ViewModels.pdb
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Interface\obj\Debug\net8.0\WebGYM.Interface.csproj.AssemblyReference.cache
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Interface\obj\Debug\net8.0\WebGYM.Interface.GeneratedMSBuildEditorConfig.editorconfig
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Interface\obj\Debug\net8.0\WebGYM.Interface.AssemblyInfoInputs.cache
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Interface\obj\Debug\net8.0\WebGYM.Interface.AssemblyInfo.cs
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Interface\obj\Debug\net8.0\WebGYM.Interface.csproj.CoreCompileInputs.cache
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Interface\obj\Debug\net8.0\WebGYM.I.9CEED848.Up2Date
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Interface\obj\Debug\net8.0\WebGYM.Interface.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Interface\obj\Debug\net8.0\refint\WebGYM.Interface.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Interface\obj\Debug\net8.0\WebGYM.Interface.pdb
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Interface\obj\Debug\net8.0\ref\WebGYM.Interface.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Interface\bin\Debug\net8.0\WebGYM.Interface.deps.json
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Interface\bin\Debug\net8.0\WebGYM.Interface.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Interface\bin\Debug\net8.0\WebGYM.Interface.pdb
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Interface\bin\Debug\net8.0\WebGYM.Models.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Interface\bin\Debug\net8.0\WebGYM.ViewModels.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Interface\bin\Debug\net8.0\WebGYM.Models.pdb
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Interface\bin\Debug\net8.0\WebGYM.ViewModels.pdb
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Interface\obj\Debug\net8.0\WebGYM.Interface.csproj.AssemblyReference.cache
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Interface\obj\Debug\net8.0\WebGYM.Interface.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Interface\obj\Debug\net8.0\WebGYM.Interface.AssemblyInfoInputs.cache
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Interface\obj\Debug\net8.0\WebGYM.Interface.AssemblyInfo.cs
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Interface\obj\Debug\net8.0\WebGYM.Interface.csproj.CoreCompileInputs.cache
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Interface\obj\Debug\net8.0\WebGYM.I.9CEED848.Up2Date
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Interface\obj\Debug\net8.0\WebGYM.Interface.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Interface\obj\Debug\net8.0\refint\WebGYM.Interface.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Interface\obj\Debug\net8.0\WebGYM.Interface.pdb
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Interface\obj\Debug\net8.0\ref\WebGYM.Interface.dll

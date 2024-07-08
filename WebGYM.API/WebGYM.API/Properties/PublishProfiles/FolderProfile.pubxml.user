@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\My Projects\WebGYM\WebGYM.API\WebGYM.API\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2024-07-08T10:39:29.9429456Z||;True|2024-07-08T15:48:49.9328229+05:30||;True|2024-07-08T15:48:25.7967029+05:30||;True|2024-07-08T10:34:25.6925023+05:30||;True|2024-07-05T14:35:32.4457510+05:30||;True|2024-07-05T14:30:20.1140607+05:30||;True|2024-07-05T14:20:52.0220491+05:30||;True|2024-07-05T14:13:51.5899459+05:30||;True|2024-07-05T10:14:01.9570694+05:30||;True|2024-07-04T19:39:54.7990560+05:30||;True|2024-07-04T19:37:54.1503653+05:30||;True|2024-07-04T19:31:49.1042520+05:30||;True|2024-07-04T19:22:31.7800526+05:30||;True|2024-07-04T19:14:14.8880353+05:30||;True|2024-07-04T16:07:02.4724149+05:30||;True|2024-07-04T16:06:56.6593968+05:30||;True|2024-07-03T22:00:30.0018370+05:30||;True|2024-07-03T21:51:02.6863947+05:30||;True|2024-07-03T21:49:49.1054799+05:30||;True|2024-07-03T21:45:33.5200143+05:30||;True|2024-07-03T21:44:26.1835613+05:30||;True|2024-07-03T21:40:49.5758838+05:30||;True|2024-07-03T21:36:28.1042439+05:30||;True|2024-07-03T20:21:46.0440784+05:30||;True|2024-07-03T20:01:58.9172374+05:30||;True|2024-07-03T19:59:31.6043802+05:30||;True|2024-07-03T19:55:32.5431680+05:30||;True|2024-07-01T19:36:15.4581553+05:30||;True|2024-07-01T19:34:38.6836296+05:30||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="SQLScripts/picd_MemberRegistrationDeleteSingleItem.sql">
+      <publishTime>07/08/2024 15:30:30</publishTime>
+    </File>
+    <File Include="SQLScripts/PICG_MemberRegistrationSelectSingleItem.sql">
+      <publishTime>07/08/2024 15:30:30</publishTime>
+    </File>
+    <File Include="SQLScripts/Usp_GetAllRenwalrecords.sql">
+      <publishTime>07/08/2024 15:30:30</publishTime>
+    </File>
+    <File Include="SQLScripts/Usp_GetAllRenwalrecordsFromBetweenDate.sql">
+      <publishTime>07/08/2024 15:30:30</publishTime>
+    </File>
+    <File Include="SQLScripts/Usp_GetAmount_reg.sql">
+      <publishTime>07/08/2024 15:30:30</publishTime>
+    </File>
+    <File Include="SQLScripts/Usp_GetMonthwisepaymentdetails.sql">
+      <publishTime>07/08/2024 15:30:30</publishTime>
+    </File>
+    <File Include="SQLScripts/USP_GetRecepit.sql">
+      <publishTime>07/08/2024 15:30:30</publishTime>
+    </File>
+    <File Include="SQLScripts/Usp_GetYearwisePAYMENTDETAILS.sql">
+      <publishTime>07/08/2024 15:30:30</publishTime>
+    </File>
+    <File Include="SQLScripts/USP_MemberRegistrationSelectList.sql">
+      <publishTime>07/08/2024 15:30:30</publishTime>
+    </File>
+    <File Include="SQLScripts/USP_PlanMasterInsertUpdateSingleItem.sql">
+      <publishTime>07/08/2024 15:30:30</publishTime>
+    </File>
+    <File Include="SQLScripts/USP_SAVE_MemberRegistrationInsertUpdateSingleItem.sql">
+      <publishTime>07/08/2024 15:30:30</publishTime>
+    </File>
+    <File Include="SQLScripts/USP_SAVE_PaymentDetailsInsertUpdateSingleItem.sql">
+      <publishTime>07/08/2024 15:30:30</publishTime>
+    </File>
+    <File Include="SQLScripts/Usp_UpdateMemberDetails.sql">
+      <publishTime>07/08/2024 15:30:30</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

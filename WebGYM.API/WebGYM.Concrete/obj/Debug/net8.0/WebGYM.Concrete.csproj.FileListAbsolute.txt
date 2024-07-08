@@ -1,0 +1,42 @@
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Concrete\bin\Debug\net8.0\WebGYM.Concrete.deps.json
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Concrete\bin\Debug\net8.0\WebGYM.Concrete.runtimeconfig.json
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Concrete\bin\Debug\net8.0\WebGYM.Concrete.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Concrete\bin\Debug\net8.0\WebGYM.Concrete.pdb
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Concrete\bin\Debug\net8.0\WebGYM.Interface.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Concrete\bin\Debug\net8.0\WebGYM.Models.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Concrete\bin\Debug\net8.0\WebGYM.ViewModels.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Concrete\bin\Debug\net8.0\WebGYM.Interface.pdb
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Concrete\bin\Debug\net8.0\WebGYM.Models.pdb
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Concrete\bin\Debug\net8.0\WebGYM.ViewModels.pdb
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\WebGYM.Concrete.csproj.AssemblyReference.cache
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\WebGYM.Concrete.GeneratedMSBuildEditorConfig.editorconfig
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\WebGYM.Concrete.AssemblyInfoInputs.cache
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\WebGYM.Concrete.AssemblyInfo.cs
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\WebGYM.Concrete.csproj.CoreCompileInputs.cache
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\WebGYM.C.5A6400AB.Up2Date
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\WebGYM.Concrete.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\refint\WebGYM.Concrete.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\WebGYM.Concrete.pdb
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\WebGYM.Concrete.genruntimeconfig.cache
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\ref\WebGYM.Concrete.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Concrete\bin\Debug\net8.0\WebGYM.Concrete.deps.json
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Concrete\bin\Debug\net8.0\WebGYM.Concrete.runtimeconfig.json
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Concrete\bin\Debug\net8.0\WebGYM.Concrete.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Concrete\bin\Debug\net8.0\WebGYM.Concrete.pdb
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Concrete\bin\Debug\net8.0\WebGYM.Interface.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Concrete\bin\Debug\net8.0\WebGYM.Models.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Concrete\bin\Debug\net8.0\WebGYM.ViewModels.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Concrete\bin\Debug\net8.0\WebGYM.Interface.pdb
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Concrete\bin\Debug\net8.0\WebGYM.Models.pdb
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Concrete\bin\Debug\net8.0\WebGYM.ViewModels.pdb
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\WebGYM.Concrete.csproj.AssemblyReference.cache
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\WebGYM.Concrete.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\WebGYM.Concrete.AssemblyInfoInputs.cache
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\WebGYM.Concrete.AssemblyInfo.cs
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\WebGYM.Concrete.csproj.CoreCompileInputs.cache
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\WebGYM.C.5A6400AB.Up2Date
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\WebGYM.Concrete.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\refint\WebGYM.Concrete.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\WebGYM.Concrete.pdb
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\WebGYM.Concrete.genruntimeconfig.cache
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.Concrete\obj\Debug\net8.0\ref\WebGYM.Concrete.dll

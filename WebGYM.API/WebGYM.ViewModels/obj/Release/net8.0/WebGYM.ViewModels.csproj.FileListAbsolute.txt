@@ -1,0 +1,24 @@
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\bin\Release\net8.0\WebGYM.ViewModels.deps.json
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\bin\Release\net8.0\WebGYM.ViewModels.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\bin\Release\net8.0\WebGYM.ViewModels.pdb
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\obj\Release\net8.0\WebGYM.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\obj\Release\net8.0\WebGYM.ViewModels.AssemblyInfoInputs.cache
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\obj\Release\net8.0\WebGYM.ViewModels.AssemblyInfo.cs
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\obj\Release\net8.0\WebGYM.ViewModels.csproj.CoreCompileInputs.cache
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\obj\Release\net8.0\WebGYM.ViewModels.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\obj\Release\net8.0\refint\WebGYM.ViewModels.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\obj\Release\net8.0\WebGYM.ViewModels.pdb
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\obj\Release\net8.0\ref\WebGYM.ViewModels.dll
+D:\Molina\Persnal\Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\obj\Release\net8.0\WebGYM.ViewModels.csproj.AssemblyReference.cache
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\bin\Release\net8.0\WebGYM.ViewModels.deps.json
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\bin\Release\net8.0\WebGYM.ViewModels.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\bin\Release\net8.0\WebGYM.ViewModels.pdb
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\obj\Release\net8.0\WebGYM.ViewModels.csproj.AssemblyReference.cache
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\obj\Release\net8.0\WebGYM.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\obj\Release\net8.0\WebGYM.ViewModels.AssemblyInfoInputs.cache
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\obj\Release\net8.0\WebGYM.ViewModels.AssemblyInfo.cs
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\obj\Release\net8.0\WebGYM.ViewModels.csproj.CoreCompileInputs.cache
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\obj\Release\net8.0\WebGYM.ViewModels.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\obj\Release\net8.0\refint\WebGYM.ViewModels.dll
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\obj\Release\net8.0\WebGYM.ViewModels.pdb
+D:\My Projects\WebGYM\WebGYM.API\WebGYM.ViewModels\obj\Release\net8.0\ref\WebGYM.ViewModels.dll
