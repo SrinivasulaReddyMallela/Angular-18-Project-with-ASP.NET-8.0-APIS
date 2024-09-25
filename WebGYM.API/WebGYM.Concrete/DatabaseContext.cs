@@ -27,7 +27,7 @@ namespace WebGYM.Concrete
                 .AddJsonFile("appsettings.json")
                 .Build();
             optionsBuilder.UseSqlServer(configuration.GetConnectionString("DatabaseConnection"));
-            //optionsBuilder.UseSqlServer("Server=DESKTOP-6EHEOVR;Database=GymDataBase;Integrated Security=true;TrustServerCertificate=true;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;");
+            //optionsBuilder.UseSqlServer("Server=DESKTOP-PV0A2LP;Database=GymDataBase;Integrated Security=true;TrustServerCertificate=true;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;");
             base.OnConfiguring(optionsBuilder);
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -188,7 +188,7 @@ namespace WebGYM.Concrete
                             .Build();
             var optionsBuilder = new DbContextOptionsBuilder<DatabaseContext>();
             optionsBuilder.UseSqlServer(configuration.GetConnectionString("DatabaseConnection"));
-           // optionsBuilder.UseSqlServer("Server=DESKTOP-6EHEOVR;Database=GymDataBase;Integrated Security=true;TrustServerCertificate=true;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;");
+           // optionsBuilder.UseSqlServer("Server=DESKTOP-PV0A2LP;Database=GymDataBase;Integrated Security=true;TrustServerCertificate=true;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;");
             return new DatabaseContext(optionsBuilder.Options);
         }
     }

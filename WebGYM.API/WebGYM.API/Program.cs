@@ -49,7 +49,7 @@ builder.Services.Configure<CookiePolicyOptions>(options =>
 
 builder.Services.AddDbContext<DatabaseContext>(options =>
 {
-    options.UseSqlServer(configuration.GetConnectionString("DatabaseConnection"),builder =>
+    options.UseSqlServer(configuration.GetConnectionString("DatabaseConnection"), builder =>
     {
         builder.EnableRetryOnFailure(maxRetryCount: 5, maxRetryDelay: TimeSpan.FromMinutes(100), errorNumbersToAdd: null);
     });
@@ -183,6 +183,34 @@ var app = builder.Build();
 var config = new ConfigurationBuilder().SetBasePath(AppDomain.CurrentDomain.BaseDirectory).AddJsonFile("appsettings.json").AddUserSecrets<Program>().Build();
 var DoYouwantsTorunMigration = config.GetSection("AppSettings:DoYouwantsTorunMigration");
 
+
+
+if (config.GetSection("AppSettings:DoYouwantsTorunDBScripts").Value != null
+    && !config.GetSection("AppSettings:DoYouwantsTorunDBScripts").Value.IsNullOrEmpty()
+    && (config.GetSection("AppSettings:DoYouwantsTorunDBScripts").Value.ToLower() == "true"
+        || config.GetSection("AppSettings:DoYouwantsTorunDBScripts").Value.ToLower() == "1") )
+{
+    try
+    {
+        using (var scope = app.Services.CreateScope())
+        {
+            var db = scope.ServiceProvider.GetRequiredService<DatabaseContext>();
+            if (Directory.Exists(config.GetSection("AppSettings:ScriptsPath").Value ))
+            {
+                foreach (var sqlFile in Directory.GetFiles(config.GetSection("AppSettings:ScriptsPath").Value, "*.sql"))
+                {
+                    var scriptContent = File.ReadAllText(sqlFile);
+                    db.Database.ExecuteSqlRawAsync(scriptContent).Wait();
+                }
+            }
+        }
+    }
+    catch (Exception ex)
+    {
+        logger.Error(ex);
+    }
+}
+
 if (DoYouwantsTorunMigration.Value != null
     && !DoYouwantsTorunMigration.Value.IsNullOrEmpty()
     && (DoYouwantsTorunMigration.Value.ToLower() == "true"
@@ -209,21 +237,7 @@ if (DoYouwantsTorunMigration.Value != null
                 logger.Error(ex);
             }
         }
-        if (config.GetSection("AppSettings:ScriptsPath").ToString() != "")
-        {
-            try
-            {
-                foreach (var sqlFile in Directory.GetFiles(/*config.GetSection("AppSettings:ScriptsPath")*/AppDomain.CurrentDomain.BaseDirectory + "/SQLScripts", "*.sql"))
-                {
-                    var scriptContent = File.ReadAllText(sqlFile);
-                    db.Database.ExecuteSqlRawAsync(scriptContent).Wait();
-                }
-            }
-            catch (Exception ex)
-            {
-                logger.Error(ex);
-            }
-        }
+
     }
 }
 // Configure the HTTP request pipeline.
