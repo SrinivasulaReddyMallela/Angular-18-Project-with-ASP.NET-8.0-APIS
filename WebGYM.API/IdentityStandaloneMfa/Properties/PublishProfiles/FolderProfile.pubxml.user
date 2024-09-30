@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\Projects\GYMWEB\WebGYM.API\IdentityStandaloneMfa\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2024-09-30T08:50:02.6825346Z||;True|2024-09-30T13:44:04.1779748+05:30||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
