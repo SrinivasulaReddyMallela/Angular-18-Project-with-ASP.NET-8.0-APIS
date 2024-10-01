@@ -8,6 +8,10 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using IdentityStandaloneMfa.Common;
+using System.Security.Cryptography.X509Certificates;
+using System.Xml;
+using IdentityStandaloneMfa.SSO;
 
 namespace IdentityStandaloneMfa.Areas.Identity.Pages.Account;
 
@@ -18,7 +22,7 @@ public class LoginModel : PageModel
     private readonly SignInManager<IdentityUser> _signInManager;
     private readonly ILogger<LoginModel> _logger;
 
-    public LoginModel(SignInManager<IdentityUser> signInManager, 
+    public LoginModel(SignInManager<IdentityUser> signInManager,
         ILogger<LoginModel> logger,
         UserManager<IdentityUser> userManager)
     {
@@ -80,6 +84,22 @@ public class LoginModel : PageModel
             if (result.Succeeded)
             {
                 _logger.LogInformation("User logged in.");
+                // Set Relay State
+
+                // Set Attrs
+                Dictionary<string, string> attrs = new Dictionary<string, string>();
+                attrs.Add("Email", Input.Email.ToString());
+
+                // Set SAML Response
+                var samlresult =
+                    SamlHelper.GetPostSamlResponse(
+                    "http://desktop-pv0a2lp/GYMWeb/",
+                    "http://desktop-pv0a2lp/IdentityStandaloneMfa/",
+                    "desktop-pv0a2lp",
+                    "localuserid",
+                    StoreLocation.LocalMachine, StoreName.Root, X509FindType.FindBySubjectName, null, null,
+                    "desktop-pv0a2lp", attrs);
+
                 return LocalRedirect(returnUrl);
             }
             if (result.RequiresTwoFactor)

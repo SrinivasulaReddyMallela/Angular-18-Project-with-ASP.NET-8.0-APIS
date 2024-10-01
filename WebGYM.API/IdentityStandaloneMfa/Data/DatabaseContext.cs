@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using IdentityStandaloneMfa.Entities;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
@@ -276,11 +277,25 @@ namespace IdentityStandaloneMfa.Data
             });
             */
             base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<SAMLConfiguration>()
+            .HasIndex(b => new
+            {
+                b.APPKey,
+            }).HasDatabaseName("IX_SAMLConfiguration_APPKey");
+            modelBuilder.Entity<SAMLAttributes>()
+           .HasIndex(b => new
+           {
+               b.AttributeName,
+           }).HasDatabaseName("IX_SAMLAttributes_AttributeName");
+
 
             modelBuilder.Entity<IdentityUserLogin<string>>()
                 .HasKey(login => new { login.LoginProvider, login.ProviderKey });
 
         }
+        public DbSet<SAMLConfiguration> SAMLConfiguration { get; set; }
+        public DbSet<SAMLAttributes> SAMLAttributes { get; set; }
+
     }
 
     public class DesignTimeDbContextFactory : IDesignTimeDbContextFactory<DatabaseContext>
