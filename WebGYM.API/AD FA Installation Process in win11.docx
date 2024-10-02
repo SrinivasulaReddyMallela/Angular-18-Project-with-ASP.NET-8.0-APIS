@@ -1,0 +1,38 @@
+If “RSAT: Active Directory Federation Services and Directory Services Tools” is not showing in the optional features on your Windows 11 machine, here are a few steps you can try:
+
+1. Check Windows Version
+Ensure that your Windows 11 version supports RSAT. RSAT tools are typically available in Windows 11 Pro, Enterprise, and Education editions.
+
+2. Enable RSAT via PowerShell
+You can try installing RSAT using PowerShell:
+
+Open PowerShell as Administrator:
+Right-click on the Start button and select Windows Terminal (Admin) or PowerShell (Admin).
+Run the following command:
+Get-WindowsCapability -Name RSAT* -Online | Add-WindowsCapability -Online
+
+3. Use DISM Tool
+If PowerShell doesn’t work, you can use the Deployment Imaging Service and Management Tool (DISM):
+
+Open Command Prompt as Administrator:
+Right-click on the Start button and select Command Prompt (Admin).
+Run the following command:
+dism /online /add-capability /capabilityname:Rsat.ActiveDirectory.DS-LDS.Tools~~~~0.0.1.0
+
+4. Check for Windows Updates
+Ensure your system is up to date:
+
+Go to Settings > Windows Update.
+Check for updates and install any pending updates.
+5. Group Policy Settings
+Sometimes, Group Policy settings might restrict the installation of optional features:
+
+Open Group Policy Editor:
+Press Win + R, type gpedit.msc, and press Enter.
+Navigate to:
+Computer Configuration > Administrative Templates > System > Specify settings for optional component installation and component repair.
+Enable the policy and set it to Download repair content and optional features directly from Windows Update instead of Windows Server Update Services (WSUS).
+6. Manual Download
+If none of the above methods work, you can manually download the RSAT tools from the Microsoft Download Center.
+
+If you continue to face issues, please let me know, and we can troubleshoot further!

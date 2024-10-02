@@ -12,6 +12,8 @@ using IdentityStandaloneMfa.Common;
 using System.Security.Cryptography.X509Certificates;
 using System.Xml;
 using IdentityStandaloneMfa.SSO;
+using Microsoft.EntityFrameworkCore;
+using IdentityStandaloneMfa.Data;
 
 namespace IdentityStandaloneMfa.Areas.Identity.Pages.Account;
 
@@ -21,14 +23,17 @@ public class LoginModel : PageModel
     private readonly UserManager<IdentityUser> _userManager;
     private readonly SignInManager<IdentityUser> _signInManager;
     private readonly ILogger<LoginModel> _logger;
-
+    private readonly IConfiguration _configuration;
+    private readonly DatabaseContext _context;
     public LoginModel(SignInManager<IdentityUser> signInManager,
         ILogger<LoginModel> logger,
-        UserManager<IdentityUser> userManager)
+        UserManager<IdentityUser> userManager, DatabaseContext context, IConfiguration configuration)
     {
         _userManager = userManager;
         _signInManager = signInManager;
         _logger = logger;
+        _context = context;
+        _configuration = configuration;
     }
 
     [BindProperty]
@@ -61,7 +66,8 @@ public class LoginModel : PageModel
         {
             ModelState.AddModelError(string.Empty, ErrorMessage);
         }
-
+        if (HttpContext.Request.Query.ContainsKey("AppKey"))
+            HttpContext.Session.SetString("AppKey", HttpContext.Request.Query["AppKey"]);
         returnUrl = returnUrl ?? Url.Content("~/");
 
         // Clear the existing external cookie to ensure a clean login process
@@ -81,26 +87,38 @@ public class LoginModel : PageModel
             // This doesn't count login failures towards account lockout
             // To enable password failures to trigger account lockout, set lockoutOnFailure: true
             var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
+            var AppKey = HttpContext.Session.GetString("AppKey");
             if (result.Succeeded)
             {
                 _logger.LogInformation("User logged in.");
-                // Set Relay State
-
                 // Set Attrs
-                Dictionary<string, string> attrs = new Dictionary<string, string>();
-                attrs.Add("Email", Input.Email.ToString());
+                var ConfigurationList = (from Configuration in _context.SAMLConfiguration
+                                         where Configuration.APPKey == AppKey
+                                         select Configuration
+                                        ).ToList();
 
+
+                var AttributesList = (from Attributes in _context.SAMLAttributes
+                                      where Attributes.SAMLConfigurationID == ConfigurationList.ToList().Select(a => a.SAMLConfigurationID).FirstOrDefault()
+                                      select Attributes
+                                        ).ToList();
+                Dictionary<string, string> attrs = new Dictionary<string, string>();
+                foreach (var Attribute in AttributesList)
+                {
+                    attrs.Add(Attribute.AttributeName, Input.Email.ToString());
+                }
                 // Set SAML Response
                 var samlresult =
                     SamlHelper.GetPostSamlResponse(
-                    "http://desktop-pv0a2lp/GYMWeb/",
-                    "http://desktop-pv0a2lp/IdentityStandaloneMfa/",
-                    "desktop-pv0a2lp",
-                    "localuserid",
-                    StoreLocation.LocalMachine, StoreName.Root, X509FindType.FindBySubjectName, null, null,
-                    "desktop-pv0a2lp", attrs);
+                   ConfigurationList.ToList().Select(a => a.Recipient).FirstOrDefault(),
+                    ConfigurationList.ToList().Select(a => a.Issuer).FirstOrDefault(),
+                    ConfigurationList.ToList().Select(a => a.Domain).FirstOrDefault(),
+                    ConfigurationList.ToList().Select(a => a.Subject).FirstOrDefault(),
+                   ConfigurationList.ToList().Select(a => a.CertStoreLocation).FirstOrDefault() == "LocalMachine" ? StoreLocation.LocalMachine : StoreLocation.CurrentUser,
+                   StoreName.Root, X509FindType.FindBySubjectName, null, null,
+                   ConfigurationList.ToList().Select(a => a.CertFriendlyName).FirstOrDefault(), attrs);
 
-                return LocalRedirect(returnUrl);
+                return Redirect(ConfigurationList.ToList().Select(a => a.Target).FirstOrDefault() + "?SAMLResponse=" + samlresult);
             }
             if (result.RequiresTwoFactor)
             {

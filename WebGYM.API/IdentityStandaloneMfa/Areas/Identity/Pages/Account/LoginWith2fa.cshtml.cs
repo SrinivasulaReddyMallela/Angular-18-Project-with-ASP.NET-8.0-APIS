@@ -2,11 +2,15 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
+using IdentityStandaloneMfa.Data;
+using IdentityStandaloneMfa.SSO;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
 namespace IdentityStandaloneMfa.Areas.Identity.Pages.Account;
@@ -16,11 +20,14 @@ public class LoginWith2faModel : PageModel
 {
     private readonly SignInManager<IdentityUser> _signInManager;
     private readonly ILogger<LoginWith2faModel> _logger;
-
-    public LoginWith2faModel(SignInManager<IdentityUser> signInManager, ILogger<LoginWith2faModel> logger)
+    private readonly IConfiguration _configuration;
+    private readonly DatabaseContext _context;
+    public LoginWith2faModel(SignInManager<IdentityUser> signInManager, ILogger<LoginWith2faModel> logger, DatabaseContext context, IConfiguration configuration)
     {
         _signInManager = signInManager;
         _logger = logger;
+        _context = context;
+        _configuration = configuration;
     }
 
     [BindProperty]
@@ -79,8 +86,36 @@ public class LoginWith2faModel : PageModel
 
         if (result.Succeeded)
         {
+
             _logger.LogInformation("User with ID '{UserId}' logged in with 2fa.", user.Id);
-            return LocalRedirect(returnUrl);
+            var AppKey = HttpContext.Session.GetString("AppKey");
+            var ConfigurationList = (from Configuration in _context.SAMLConfiguration
+                                     where Configuration.APPKey == AppKey
+                                     select Configuration
+                                                    ).ToList();
+
+
+            var AttributesList = (from Attributes in _context.SAMLAttributes
+                                  where Attributes.SAMLConfigurationID == ConfigurationList.ToList().Select(a => a.SAMLConfigurationID).FirstOrDefault()
+                                  select Attributes
+                                    ).ToList();
+            Dictionary<string, string> attrs = new Dictionary<string, string>();
+            foreach (var Attribute in AttributesList)
+            {
+                attrs.Add(Attribute.AttributeName, user.Email.ToString());
+            }
+            // Set SAML Response
+            var samlresult =
+                SamlHelper.GetPostSamlResponse(
+               ConfigurationList.ToList().Select(a => a.Recipient).FirstOrDefault(),
+                ConfigurationList.ToList().Select(a => a.Issuer).FirstOrDefault(),
+                ConfigurationList.ToList().Select(a => a.Domain).FirstOrDefault(),
+                ConfigurationList.ToList().Select(a => a.Subject).FirstOrDefault(),
+               ConfigurationList.ToList().Select(a => a.CertStoreLocation).FirstOrDefault() == "LocalMachine" ? StoreLocation.LocalMachine : StoreLocation.CurrentUser,
+               StoreName.Root, X509FindType.FindBySubjectName, null, null,
+               ConfigurationList.ToList().Select(a => a.CertFriendlyName).FirstOrDefault(), attrs);
+
+            return Redirect(ConfigurationList.ToList().Select(a => a.Target).FirstOrDefault() + "?SAMLResponse=" + samlresult);
         }
         else if (result.IsLockedOut)
         {

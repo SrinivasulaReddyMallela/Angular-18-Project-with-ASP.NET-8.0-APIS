@@ -85,8 +85,36 @@ namespace WebGYM.API.Common
                             await _usersInRoles.AssignRole(usersInRoles);
                         }
                     }
+                   
                 }
 
+                if (!await _users.CheckUsersExits("srinivasulareddy.in@gmail.com"))
+                {
+                    Users users1 = new Users();
+                    users1.UserName = "srinivasulareddy.in@gmail.com";
+                    users1.EmailId = "srinivasulareddy.in@gmail.com";
+                    users1.FullName = "Admin User";
+                    users1.Contactno = "9999999999";
+                    users1.CreatedDate = DateTime.Now;
+                    users1.Status = true;
+                    users1.Createdby = 1;
+                    users1.RefreshToken = " ";
+                    users1.Password = EncryptionLibrary.EncryptText("123456");
+                    var normaluserstatus1 = await _users.InsertUsers(users1);
+                    if (normaluserstatus1)
+                    {
+                        var usersInRoles = new UsersInRoles();
+                        var UserData = (await _users.GetAllUsers()).ToList().Where(x => x.UserName == "srinivasulareddy.in@gmail.com").FirstOrDefault();
+                        var RoleData = (await _role.GetAllRole()).ToList().Where(x => x.RoleName == "admin").FirstOrDefault();
+                        usersInRoles.UserId = UserData.UserId;
+                        usersInRoles.RoleId = RoleData.RoleId;
+                        if (!await _usersInRoles.CheckRoleExists(usersInRoles))
+                        {
+                            usersInRoles.UserRolesId = 0;
+                            await _usersInRoles.AssignRole(usersInRoles);
+                        }
+                    }
+                }
             }
             catch (Exception ex)
             {

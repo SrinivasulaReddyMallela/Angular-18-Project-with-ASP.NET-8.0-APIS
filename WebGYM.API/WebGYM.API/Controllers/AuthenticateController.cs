@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
+using Microsoft.Extensions.Options; 
 using Microsoft.IdentityModel.Tokens;
 using WebGYM.API.Models;
 using WebGYM.API.Common;
@@ -33,6 +33,62 @@ namespace WebGYM.API.Controllers
             _appSettings = appSettings.Value;
             _configuration = configuration;
             _logger = logger;
+        }
+        [HttpPost]
+        [Route("PostSAMLResponse")]
+        //[ActionName("PostSAMLResponse")]
+        public async Task<IActionResult> Post([FromBody] PostSAMLResponseModel value)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    
+                    var samlresp = new Response(_appSettings.X509Certificate);
+                    samlresp.LoadXml(Encoding.UTF8.GetString(Convert.FromBase64String(value.PostSAMLResponse)));
+                    if (samlresp.IsValid())
+                    {
+                        var userdetails = await _users.GetUserDetailsbyCredentials(samlresp.GetCustomAttribute("Email"));
+                        value.UserName = userdetails.UserName;
+                        if (userdetails != null)
+                        {
+                            var authClaims = new List<Claim>
+                            {
+                                new Claim(ClaimTypes.Name, userdetails.UserId.ToString()),
+                                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                            };
+                            authClaims.Add(new Claim(ClaimTypes.Role, userdetails.RoleId.ToString()));
+
+                            var token = CreateToken(authClaims);
+                            var refreshToken = GenerateRefreshToken();
+
+                            _ = int.TryParse(_configuration["JWT:RefreshTokenValidityInDays"], out int refreshTokenValidityInDays);
+                            Users users = new Users();
+                            users.UserId = userdetails.UserId;
+                            users.RefreshToken = refreshToken;
+                            users.RefreshTokenExpiryTime = DateTime.Now.AddDays(refreshTokenValidityInDays);
+                            await _users.SaveTokenbyUser(users);
+                            return Ok(new
+                            {
+                                Token = new JwtSecurityTokenHandler().WriteToken(token),
+                                RefreshToken = refreshToken,
+                                Expiration = token.ValidTo,
+                                Usertype = userdetails.RoleId,
+                                UserName = userdetails.UserName
+                            });
+                        }
+                        else
+                            return StatusCode(418);
+                    }
+                    return Unauthorized();
+                }
+                return BadRequest(ModelState);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "This is an Error log, indicating a failure in the current operation.");
+                return StatusCode(500, new { message = "An error occurred while creating the  crating Todo Item", error = ex.Message });
+            }
         }
 
         // POST: api/Authenticate

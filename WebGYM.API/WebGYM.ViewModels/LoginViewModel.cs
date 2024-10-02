@@ -7,6 +7,14 @@ using System.Threading.Tasks;
 
 namespace WebGYM.ViewModels
 {
+    public class PostSAMLResponseModel
+    {
+        [Required(ErrorMessage = "Enter PostSAMLResponse")]
+        public string PostSAMLResponse { get; set; }
+
+         
+        public string UserName { get; set; }
+    }
     public class LoginRequestViewModel
     {
         [Required(ErrorMessage = "Enter UserName")]

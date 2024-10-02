@@ -11,6 +11,7 @@ using NLog.Web;
 
 var builder = WebApplication.CreateBuilder(args);
 ConfigurationManager configuration = builder.Configuration;
+var config = new ConfigurationBuilder().SetBasePath(AppDomain.CurrentDomain.BaseDirectory).AddJsonFile("appsettings.json").AddUserSecrets<Program>().Build();
 
 #region Nlog Changes
 builder.Logging.ClearProviders(); // Clears default logging providers.
@@ -19,7 +20,13 @@ var logger = NLog.LogManager.GetCurrentClassLogger();
 #endregion
 
 #region MyRegion
-
+builder.Services.AddDistributedMemoryCache(); // Adds a default in-memory implementation of IDistributedCache
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(Convert.ToInt32(config.GetSection("AppSettings:SessionTimeOut").Value)); // Set session timeout
+    options.Cookie.HttpOnly = true; // Make the session cookie HTTP only
+    options.Cookie.IsEssential = true; // Make the session cookie essential
+});
 builder.Services.AddDbContext<DatabaseContext>(options =>
 {
     options.UseSqlServer(configuration.GetConnectionString("DatabaseConnection"), builder =>
@@ -55,7 +62,6 @@ var app = builder.Build();
 
 IdentityModelEventSource.ShowPII = true;
 JsonWebTokenHandler.DefaultInboundClaimTypeMap.Clear();
-var config = new ConfigurationBuilder().SetBasePath(AppDomain.CurrentDomain.BaseDirectory).AddJsonFile("appsettings.json").AddUserSecrets<Program>().Build();
 var DoYouwantsTorunMigration = config.GetSection("AppSettings:DoYouwantsTorunMigration");
 //dotnet tool install --global dotnet-ef
 //dotnet ef
@@ -128,6 +134,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+app.UseSession(); // Add this line to enable session
 
 app.MapRazorPages();
 

@@ -4,6 +4,7 @@
     {
         public string Secret { get; set; }
         public string DoYouwantsTorunMigration { get; set; }
+        public string X509Certificate { get; set; }
     }
     public class Response<T>
     {

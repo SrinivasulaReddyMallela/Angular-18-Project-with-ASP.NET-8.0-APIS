@@ -25,7 +25,7 @@ namespace IdentityStandaloneMfa.Entities
         public string APPKey { get; set; }
         public Boolean IsActive { get; set; }
 
-        public int SAMLConfigurationAttributesID { get; set; }
+       
     }
     [Table("SAML_ConfigurationAttributes")]
     public class SAMLAttributes
@@ -37,6 +37,7 @@ namespace IdentityStandaloneMfa.Entities
         public string AttributeName { get; set; }
         public string AttributeValue { get; set; }
         public Boolean IsActive { get; set; }
+        public int SAMLConfigurationID { get; set; }
 
     }
 }
