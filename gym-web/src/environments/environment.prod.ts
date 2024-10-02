@@ -1,5 +1,5 @@
 export const environment = {
     production: true,
-    apiEndpoint: 'https://localhost/GYMAPI'
+    apiEndpoint: 'http://desktop-pv0a2lp/GYMWeb'
   };
   

@@ -4,7 +4,7 @@
 
 export const environment = {
     production: false,
-    apiEndpoint: 'https://localhost/GYMAPI'
+    apiEndpoint: 'http://desktop-pv0a2lp/GYMWeb'
   };
   
   /*
