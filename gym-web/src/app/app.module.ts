@@ -53,6 +53,7 @@ import { UserAuthGuardService } from './AuthGuard/UserAuthGuardService';
 import { NgxIndexedDBModule, DBConfig } from 'ngx-indexed-db';
 import { SSOComponent } from './SSO/app.SSOComponent';
 import { PostSAMLResponseComponent } from './PostSAMLResponse/app.PostSAMLResponseComponent';
+
   
 
 const dbConfig: DBConfig = {
@@ -220,16 +221,17 @@ const dbConfig: DBConfig = {
           
         ]
       },
-
-      
       { path: 'Login', component: LoginComponent },
       { path: 'AdminLogout', component: AdminLogoutComponent },
       { path: 'UserLogout', component: UserLogoutComponent },
-      {path:"SSO",component:SSOComponent},
-      {path:"PostSAMLResponse",component:PostSAMLResponseComponent},
-      
+      { path:"SSO",component:SSOComponent},
+     // { path:"PostSAMLResponse",component:PostSAMLResponseComponent},
+    //  {
+    //   path: 'PostSAMLResponse',
+    //   loadChildren: () => import('./PostSAMLResponse/post-saml-response.module').then(m => m.PostSAMLResponseModule)
+    // },
       { path: '', redirectTo: "SSO", pathMatch: 'full' },
-      { path: '', redirectTo: "PostSAMLResponse", pathMatch: 'full' },
+      //{ path: '**', redirectTo: "PostSAMLResponse", pathMatch: 'full' },
       // { path: '**', redirectTo: "Login", pathMatch: 'full' },
        //{ path: 'SSO', redirectTo: 'http://desktop-pv0a2lp/IdentityStandaloneMfa/Identity/Account/Login/?AppKey=GymApp', pathMatch: 'full' }
     ], { useHash: true })

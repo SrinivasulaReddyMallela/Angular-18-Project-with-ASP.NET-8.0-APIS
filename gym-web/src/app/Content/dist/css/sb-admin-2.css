@@ -8,6 +8,8 @@ body {
 }
 #wrapper {
   width: 100%;
+  background-color: #0d0d0d !important;
+  border-color: #0d0d0d !important;
 }
 #page-wrapper {
   padding: 0 15px;
