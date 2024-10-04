@@ -16,6 +16,7 @@ using WebGYM.Models;
 using WebGYM.ViewModels;
 using System.Security.Cryptography;
 using Microsoft.AspNetCore.Identity;
+using Newtonsoft.Json.Linq;
 
 namespace WebGYM.API.Controllers
 {
@@ -34,6 +35,21 @@ namespace WebGYM.API.Controllers
             _configuration = configuration;
             _logger = logger;
         }
+        
+        [HttpGet("{username}", Name = "GetUsersbyUserName")]
+        public async Task<IActionResult> Get(string username)
+        {
+            try
+            {
+                return Ok(await _users.GetUserDetailsbyCredentials(username));
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "This is an Error log, indicating a failure in the current operation.");
+                return StatusCode(500, new { message = "An error occurred while creating the  crating Todo Item", error = ex.Message });
+            }
+        }
+
         [HttpPost]
         [Route("PostSAMLResponse")]
         //[ActionName("PostSAMLResponse")]

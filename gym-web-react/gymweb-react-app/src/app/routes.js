@@ -31,7 +31,7 @@ const routes = [
       // dashboard route
       { path: "/dashboard/default", element: <Analytics />, auth: authRoles.admin },
       // e-chart route
-      { path: "/charts/echarts", element: <AppEchart />, auth: authRoles.editor }
+      { path: "/dashboard/userdashboard", element: <AppEchart />, auth: authRoles.user }
     ]
   },
 

@@ -28,7 +28,7 @@ export default function Brand({ children }) {
       <Box display="flex" alignItems="center">
         <MatxLogo />
         <StyledSpan mode={mode} className="sidenavHoverShow">
-          Matx
+          Gym App
         </StyledSpan>
       </Box>
 

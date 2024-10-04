@@ -14,6 +14,9 @@ using System.Xml;
 using IdentityStandaloneMfa.SSO;
 using Microsoft.EntityFrameworkCore;
 using IdentityStandaloneMfa.Data;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System.Text;
 
 namespace IdentityStandaloneMfa.Areas.Identity.Pages.Account;
 
@@ -118,7 +121,31 @@ public class LoginModel : PageModel
                    StoreName.Root, X509FindType.FindBySubjectName, null, null,
                    ConfigurationList.ToList().Select(a => a.CertFriendlyName).FirstOrDefault(), attrs);
 
-                return Redirect(ConfigurationList.ToList().Select(a => a.Target).FirstOrDefault() + "?SAMLResponse=" + samlresult);
+        //        var targetUrl = ConfigurationList.ToList().Select(a => a.Target).FirstOrDefault();
+        //        var serializedData = JsonConvert.SerializeObject(Encoding.UTF8.GetString(Convert.FromBase64String(samlresult)));
+
+        //        var html = $@"
+        //<html>
+        //<head>
+        //    <script type='text/javascript'>
+        //        window.onload = function() {{
+        //            var newWindow = window.open('{targetUrl}', '_blank');
+        //            if (newWindow) {{
+        //                newWindow.onload = function() {{
+        //                    var event = new CustomEvent('receiveData', {{ detail: {serializedData} }});
+        //                    newWindow.dispatchEvent(event);
+        //                }};
+        //            }}
+        //            window.location.href = '{targetUrl}';
+        //        }};
+        //    </script>
+        //</head>
+        //<body>
+        //</body>
+        //</html>";
+
+        //        return Content(html, "text/html");
+                return RedirectPermanent(ConfigurationList.ToList().Select(a => a.Target).FirstOrDefault() + "?SAMLResponse=" + samlresult);
             }
             if (result.RequiresTwoFactor)
             {

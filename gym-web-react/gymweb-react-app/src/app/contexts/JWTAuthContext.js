@@ -2,7 +2,7 @@ import { createContext, useEffect, useReducer } from "react";
 import axios from "axios";
 // CUSTOM COMPONENT
 import { MatxLoading } from "app/components";
-
+import { environment } from "app/environments/environment";
 const initialState = {
   user: null,
   isInitialized: false,
@@ -47,14 +47,22 @@ export const AuthProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   const login = async (email, password) => {
-    const response = await axios.post("/api/auth/login", { email, password });
+    const username= email;
+    const token="";
+    const response = await axios.post(environment.apiEndpoint+"/api/Authenticate/", { username, password,token});
     const { user } = response.data;
+    if(response.data!=null)
+    {
+      localStorage.setItem("LoggedinUserName",username);
+      localStorage.setItem("LoggedinUserRole",response.data.Usertype);
 
+    }
+    //debugger;
     dispatch({ type: "LOGIN", payload: { user } });
   };
 
   const register = async (email, username, password) => {
-    const response = await axios.post("/api/auth/register", { email, username, password });
+    const response = await axios.post(environment.apiEndpoint+"/api/auth/register", { email, username, password });
     const { user } = response.data;
 
     dispatch({ type: "REGISTER", payload: { user } });
@@ -67,8 +75,10 @@ export const AuthProvider = ({ children }) => {
   useEffect(() => {
     (async () => {
       try {
-        const { data } = await axios.get("/api/auth/profile");
-        dispatch({ type: "INIT", payload: { isAuthenticated: true, user: data.user } });
+        const { data } = await axios.get(environment.apiEndpoint+"/api/Authenticate/"+localStorage.getItem("LoggedinUserName"));
+        //debugger;
+        data.avatar="/assets/images/avatars/001-man.svg";
+        dispatch({ type: "INIT", payload: { isAuthenticated: true, user: data } });
       } catch (err) {
         console.error(err);
         dispatch({ type: "INIT", payload: { isAuthenticated: false, user: null } });
