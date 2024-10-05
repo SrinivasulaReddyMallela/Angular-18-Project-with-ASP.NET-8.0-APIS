@@ -68,13 +68,13 @@ export const AuthProvider = ({ children }) => {
   };
 
   const register = async (email, username, password) => {
-    var AdminUser =localStorage.getItem('AdminUser');
-    if(AdminUser!=null){
-        this.data = JSON.parse(AdminUser);
-        this.token = this.data.token;
-    }
-
-    const response = await axios.post(environment.apiEndpoint+"/api/auth/register", { email, username, password });
+    var AdminUser = localStorage.getItem('sessionconstants.LoggedinUserRole');
+    let headers = {
+        'Content-Type': 'application/json',
+        'Authorization': 'Bearer ' + `${JSON.parse(AdminUser).token}`
+    };
+    const response = await axios.post(environment.apiEndpoint+"/api/User/",
+       { email, username, password },{ headers: headers });
     const { user } = response.data;
 
     dispatch({ type: "REGISTER", payload: { user } });

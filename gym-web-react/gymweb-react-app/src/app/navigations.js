@@ -51,13 +51,13 @@ export const navigations = [
   {
     navigations.push(
       {name: "Dashboard", path: "/dashboard/default", icon: "dashboard" } ,
-      {name: "Scheme", path: "/dashboard/default", icon: "people" } ,
-      {name: "Role", path: "/dashboard/default", icon: "people" } ,
-      {name: "User Account", path: "/dashboard/default", icon: "people" } ,
-      {name: "Assign/Remove Role", path: "/dashboard/default", icon: "people" } ,
+      {name: "Scheme", path: "/session/signin", icon: "people" } ,
+      {name: "Role", path: "/session/signup", icon: "people" } ,
+      {name: "User Account", path: "/session/forgot-password", icon: "people" } ,
+      {name: "Assign/Remove Role", path: "/session/404", icon: "people" } ,
       {name: "All Member Report", path: "/dashboard/default", icon: "list" } ,
       {name: "Year Wise Report", path: "/dashboard/default", icon: "list" } ,
-      {name: "Month Wise Report", path: "/dashboard/default", icon: "list" } ,
+      {name: "Month Wise Report", path: "/dashboard/default", icon: "list"} ,
       {name: "Renewal Reort", path: "/dashboard/default", icon: "list" } ,
     );
   }
