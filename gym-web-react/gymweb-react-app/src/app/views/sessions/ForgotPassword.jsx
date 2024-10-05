@@ -31,7 +31,7 @@ const ContentBox = styled("div")(({ theme }) => ({
 
 export default function ForgotPassword() {
   const navigate = useNavigate();
-  const [email, setEmail] = useState("admin@example.com");
+  const [email, setEmail] = useState("");
 
   const handleFormSubmit = () => {
     console.log(email);

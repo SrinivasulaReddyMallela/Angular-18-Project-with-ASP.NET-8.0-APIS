@@ -162,14 +162,14 @@ const Layout1Topbar = () => {
             <StyledItem>
               <Link to="/page-layouts/user-profile">
                 <Person />
-                <Span>Profile</Span>
+                <Span>Change Password</Span>
               </Link>
             </StyledItem>
 
-            <StyledItem>
+            {/* <StyledItem>
               <Settings />
               <Span>Settings</Span>
-            </StyledItem>
+            </StyledItem> */}
 
             <StyledItem onClick={logout}>
               <PowerSettingsNew />

@@ -3,6 +3,7 @@ import axios from "axios";
 // CUSTOM COMPONENT
 import { MatxLoading } from "app/components";
 import { environment } from "app/environments/environment";
+import { sessionconstants } from "app/environments/sessionconstants";
 const initialState = {
   user: null,
   isInitialized: false,
@@ -53,15 +54,26 @@ export const AuthProvider = ({ children }) => {
     const { user } = response.data;
     if(response.data!=null)
     {
-      localStorage.setItem("LoggedinUserName",username);
-      localStorage.setItem("LoggedinUserRole",response.data.Usertype);
-
+      localStorage.setItem(sessionconstants.LoggedinUserName,username);
+      localStorage.setItem(sessionconstants.LoggedinUserRole,response.data.Usertype);
+      if (response.data.Usertype == "2") {
+        localStorage.setItem(sessionconstants.LoggedInUserRoleName,"currentUser");
+      }
+     else if (response.data.Usertype == "1") {
+        localStorage.setItem(sessionconstants.LoggedInUserRoleName,"AdminUser");
+     }
     }
     //debugger;
     dispatch({ type: "LOGIN", payload: { user } });
   };
 
   const register = async (email, username, password) => {
+    var AdminUser =localStorage.getItem('AdminUser');
+    if(AdminUser!=null){
+        this.data = JSON.parse(AdminUser);
+        this.token = this.data.token;
+    }
+
     const response = await axios.post(environment.apiEndpoint+"/api/auth/register", { email, username, password });
     const { user } = response.data;
 
@@ -69,13 +81,14 @@ export const AuthProvider = ({ children }) => {
   };
 
   const logout = () => {
+    localStorage.clear();
     dispatch({ type: "LOGOUT" });
   };
 
   useEffect(() => {
     (async () => {
       try {
-        const { data } = await axios.get(environment.apiEndpoint+"/api/Authenticate/"+localStorage.getItem("LoggedinUserName"));
+        const { data } = await axios.get(environment.apiEndpoint+"/api/Authenticate/"+localStorage.getItem(sessionconstants.LoggedinUserName));
         //debugger;
         data.avatar="/assets/images/avatars/001-man.svg";
         dispatch({ type: "INIT", payload: { isAuthenticated: true, user: data } });
